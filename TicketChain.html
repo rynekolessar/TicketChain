@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TicketChain</title>
+    <style>
+    table, th, td {
+        border: 0px;
+    }
+    </style>
+</head>
+<center>
+
+    <body style="background-color:#141a21;">
+
+        <h1 style="font-family:Ubuntu;">
+            <font color="#FFFFFF">
+                Welcome to TicketChain.
+            </font>
+        </h1>
+
+        <p style="font-family:Ubuntu">
+            <font color="#FFFFFF">
+                Ticketchain is a Peer to Peer ticket sales website based on the Ethereum Blockchain. <br>
+                Our mission is to provide a way to buy and sell tickets to events without going <br>
+                through a middle-man like Ticketmaster or Stubhub and paying loads of fees.<br>
+                Simply install <a href="https://metamask.io">metamask</a> in your browser, acquire Ether (ETH), and start shopping!
+            </font>
+        </p>
+
+        <script src="./jquery-3.1.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+        <script src="./TicketChain.js"></script>
+        <script>
+            function emailPrompt() {
+                var email = prompt("Enter your email to recieve your tickets", "johnappleseed@gmail.com");
+                if(email != null){
+                    alert("Email sent! Thank you! Enjoy the show!");
+                }
+                else {
+                    alert("Please enter a vaild Email address.")
+                }
+                Pay();
+            }
+        </script>
+
+        <table>
+            <tr>
+                <th>
+                    <p style="font-family: Ubuntu">
+                        <font color="FFFFFF"> <U>Available Tickets</U> </font>
+                    </p>
+                </th>
+            </tr>
+<!---------------------------------------------------------------------------------------------------->
+            <tr>
+                <td>
+                    <p style="font-family: Ubuntu">
+                        <font color="#FFFFFF"><b>Blue Man Group</b><br>
+                            Briar Street Theatre<br>
+                            Fri, March 22, 2:00pm</font>
+                    </p>
+                </td>
+                <td>
+                    <p style="font-family: Ubuntu">
+                        <font color="#FFFFFF">0.86 Ether (USD $120)</font>
+                    </p>
+                </td>
+                <td>
+                    <button type="button" onclick="emailPrompt()">Buy Tickets</button>
+                </td>
+            </tr>
+<!---------------------------------------------------------------------------------------------------->
+            <tr>
+                <td>
+                    <p style="font-family: Ubuntu">
+                        <font color="#FFFFFF"><b>Concert 2</b><br>
+                            location<br>
+                            Date</font>
+                    </p>
+                </td>
+                <td>
+                    <p style="font-family: Ubuntu">
+                        <font color="#FFFFFF">0.36 Ether (USD $50)</font>
+                    </p>
+                </td>
+                <td>
+                    <button type="button" onclick="emailPrompt()">Buy Tickets</button>
+                </td>
+            </tr>
+<!---------------------------------------------------------------------------------------------------->
+            <tr>
+                <td>
+                    <p style="font-family:Ubuntu">
+                        <font color="#FFFFFF"><b>Concert 3</b><br>
+                            location<br>
+                            Date
+                        </font>
+                    </p>
+                </td>
+                <td>
+                    <p style="font-family: Ubuntu">
+                        <font color="#FFFFFF">0.075 Ether (USD $10.50)</font>
+                    </p>
+                </td>
+                <td>
+                    <button type="button" onclick="emailPrompt()">Buy Tickets</button>
+                </td>
+            </tr>
+<!---------------------------------------------------------------------------------------------------->  
+            <tr>
+                <td>
+                    <p style="font-family:Ubuntu">
+                        <font color="#FFFFFF"><b>Concert 4</b><br>
+                            location<br>
+                            Date
+                        </font>
+                    </p>
+                </td>
+                <td>
+                    <p style="font-family: Ubuntu">
+                        <font color="#FFFFFF">0.18 Ether (USD $25)</font>
+                    </p>
+                </td>
+                <td>
+                    <button type="button" onclick="emailPrompt()">Buy Tickets</button>
+                </td>
+            </tr>
+<!---------------------------------------------------------------------------------------------------->  
+            <tr>
+                <td>
+                    <p style="font-family:Ubuntu">
+                        <font color="#FFFFFF"><b>Concert 5</b><br>
+                            location<br>
+                            Date
+                        </font>
+                    </p>
+                </td>
+                <td>
+                    <p style="font-family: Ubuntu">
+                        <font color="#FFFFFF">0.45 Ether (USD $63.25)</font>
+                    </p>
+                </td>
+                <td>
+                    <button type="button" onclick="emailPrompt()">Buy Tickets</button>
+                </td>
+            </tr>
+<!---------------------------------------------------------------------------------------------------->  
+        </table>
+    </body>
+
+</center>
+
+</html> 

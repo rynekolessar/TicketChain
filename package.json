@@ -1,0 +1,17 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.9.0",
+    "solc": "^0.4.25",
+    "web3": "^0.20.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

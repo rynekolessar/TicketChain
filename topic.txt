@@ -1,0 +1,20 @@
+______________________________________________________________________
+idea 1: 
+
+"Ticketchain"
+Decentralized concert tickets, like ticketmaster but without crazy fees
+users can buy and sell tickets. a ticket resale website on the blockchain.
+
+Needs:
+-HTML Web Interface
+-solidity smart contract
+-js file to interact with HTML and Smart contract
+
+Layout of the Web Interface:
+Title: Welcome to Ticketchain
+Description: ......
+*scroll down*
+tickets for sale in a list format with button to click that prompts a
+metamask transfer to the seller
+
+Tickets could be emailed to the buyer after they make the purchase
